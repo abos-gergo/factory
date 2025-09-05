@@ -1,0 +1,11 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { workspace = true }
+bevy_spacetimedb = { workspace = true }
+spacetimedb-sdk = { workspace = true }
+bevy-steamworks = { git = "https://github.com/abos-gergo/bevy_steamworks" }
+bevy_egui = "0.36.0"
